@@ -1,6 +1,12 @@
 # Motobai
 Software Engineering Project
 
+Important stuff that should be installed first if may errors na missing: (google niyo lng)
+1. npm
+2. vscode
+3. python
+
+
 How to install:
 1. git clone <this link>
 
@@ -18,3 +24,4 @@ How to run:
 3. Open another terminal
 4. cd backend
 5. python manage.py runserver
+
