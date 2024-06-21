@@ -14,7 +14,7 @@ How to install:
 
 How to run:
 1. cd frontend
-2. npm run dev
-
-3. cd backend
-4. python manage.py runserver
+2. npm run dev (keep it on)
+3. Open another terminal
+4. cd backend
+5. python manage.py runserver
