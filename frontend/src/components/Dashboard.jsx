@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import Sidebar from './Sidebar';
-import Company from './ContentHolder/Company'
-import Products from './ContentHolder/Products'
+import Company from './ContentHolder/Company/Company'
+import Products from './ContentHolder/Products/Products'
+import Inventory from './ContentHolder/Inventory/Inventory'
 
 const Dashboard = () => {
   const [activeComponent, setActiveComponent] = useState('company'); // State to track active component
@@ -12,6 +13,8 @@ const Dashboard = () => {
         return <Company />;
       case 'products':
         return <Products />;
+      case 'inventory':
+        return <Inventory />;
       default:
         return null;
     }

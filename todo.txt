@@ -1,0 +1,8 @@
+- add read and create for products, inventory, order, ordertracking
+
+- add edit, delete, etc.
+
+- test what happens if there are blank information
+
+- shorten the information in the tables, make a read modal
+
